@@ -1,0 +1,19 @@
+{
+  "name": "cypress_framework",
+  "version": "1.0.0",
+  "description": "Cypress Framework for web applications",
+  "author": "Shyedhu",
+  "scripts": {
+    "cy:open": "./node_modules/.bin/cypress open",
+    "cy:run": "./node_modules/.bin/cypress run -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
+    "cy:run:chrome": "./node_modules/.bin/cypress run -b chrome -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
+    "cy:run:firefox": "./node_modules/.bin/cypress run -b firefox -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
+    "cy:open:win": "node_modules\\.bin\\cypress open",
+    "cy:run:win": "node_modules\\.bin\\cypress run -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
+    "cy:run:chrome:win": "node_modules\\.bin\\cypress run -b chrome -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
+    "cy:run:firefox:win": "node_modules\\.bin\\cypress run -b firefox -e ENV=https://shyedhu.github.io/demo.shyedhu.com/"
+  },
+  "dependencies": {
+    "cypress": "^4.0.1"
+  }
+}
