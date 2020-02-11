@@ -16,7 +16,7 @@ yarn
 ```console
 cd - 
 
-git clone 
+git clone https://github.com/shyedhu/cypress_framework.git
 
 ```
 navigate into the project folder
