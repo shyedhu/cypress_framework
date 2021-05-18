@@ -1,17 +1,17 @@
 {
-  "name": "cypress_framework",
-  "version": "1.0.0",
-  "description": "Cypress Framework for web applications",
+  "name": "cypress-framework",
+  "version": "1.0.1",
+  "description": "Cypress Automation Framework for web applications",
   "author": "Shyedhu",
   "scripts": {
     "cy:open": "./node_modules/.bin/cypress open",
-    "cy:run": "./node_modules/.bin/cypress run -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
-    "cy:run:chrome": "./node_modules/.bin/cypress run -b chrome -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
-    "cy:run:firefox": "./node_modules/.bin/cypress run -b firefox -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
+    "cy:run": "./node_modules/.bin/cypress run -e ENV=https://shyedhu-react-app-3000.herokuapp.com/login",
+    "cy:run:chrome": "./node_modules/.bin/cypress run -b chrome -e ENV=https://shyedhu-react-app-3000.herokuapp.com/login",
+    "cy:run:firefox": "./node_modules/.bin/cypress run -b firefox -e ENV=https://shyedhu-react-app-3000.herokuapp.com/login",
     "cy:open:win": "node_modules\\.bin\\cypress open",
-    "cy:run:win": "node_modules\\.bin\\cypress run -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
-    "cy:run:chrome:win": "node_modules\\.bin\\cypress run -b chrome -e ENV=https://shyedhu.github.io/demo.shyedhu.com/",
-    "cy:run:firefox:win": "node_modules\\.bin\\cypress run -b firefox -e ENV=https://shyedhu.github.io/demo.shyedhu.com/"
+    "cy:run:win": "node_modules\\.bin\\cypress run -e ENV=https://shyedhu-react-app-3000.herokuapp.com/login",
+    "cy:run:chrome:win": "node_modules\\.bin\\cypress run -b chrome -e ENV=https://shyedhu-react-app-3000.herokuapp.com/login",
+    "cy:run:firefox:win": "node_modules\\.bin\\cypress run -b firefox -e ENV=https://shyedhu-react-app-3000.herokuapp.com/login"
   },
   "dependencies": {
     "cypress": "^4.0.1",
@@ -22,7 +22,7 @@
     "rimraf": "^3.0.2",
     "yargs": "^15.1.0"
   },
-   "devDependencies": {
+  "devDependencies": {
     "cypress-log-to-output": "^1.0.8"
   }
 }

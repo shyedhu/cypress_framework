@@ -1,4 +1,5 @@
-import Custom from '../utils/custom.js';
+import Custom from '../../utils/custom.js';
+
 var custom = new Custom();
  /**
  * @description Test class to validate the login page
@@ -14,6 +15,8 @@ var custom = new Custom();
          cy.get('@usersData').then((usersData) => {
          //validate the login 
          cy.login(usersData.username,usersData.pass)
+         cy.logout()
+         
         })
     });
  });

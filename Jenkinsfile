@@ -11,7 +11,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'npm install'
-        sh './node_modules/.bin/cypress run -b chrome -e ENV=https://shyedhu.github.io/demo.shyedhu.com/'
+        sh './node_modules/.bin/cypress run -b chrome -e ENV=https://shyedhu-react-app-3000.herokuapp.com/login'
       }
     }
   }

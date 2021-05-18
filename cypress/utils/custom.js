@@ -98,6 +98,26 @@ txtContains(selector,selectorTxt){
    cy.contains(txtValue).should('be.visible')
  }
 
+ /**
+ * @description Method to check element's selector should be visible
+ * @param selector
+ * @author Shyedhu
+ */
+selectorVisible(selector){
+   cy.get(selector).should('be.visible')
+ }
+
+  /**
+ * @description Method to verify the window Alert message
+ * @param selectorTxt
+ * @author Shyedhu
+ */
+windowAlert(selectorTxt){
+   cy.on('window:alert', (str) => {
+      expect(str).to.equal(selectorTxt)
+    })
+}
+
 
 
 

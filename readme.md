@@ -16,7 +16,7 @@ yarn
 ```console
 cd - 
 
-git clone https://github.com/shyedhu/cypress_framework.git
+git clone https://github.com/shyedhu/cypress-framework.git
 
 ```
 navigate into the project folder
@@ -38,9 +38,17 @@ This will install all of the necessary packages to get cypress installed on your
 
 ## Running tests on chrome browser
 
+npm run cy:run:chrome
+
+(or)
+
 yarn cy:run:chrome
 
 
 ## Running tests on firefox browser
+
+npm run cy:run:firefox
+
+(or)
 
 yarn cy:run:firefox
